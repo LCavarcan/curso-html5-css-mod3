@@ -30,7 +30,7 @@ a {
 }
 
 main > section {
-    padding: 70px 0px 70px 30px;
+    padding: 70px 30px 70px 30px;
 }
 
 main > section > p {
@@ -39,7 +39,7 @@ main > section > p {
 
 main > section.img1 {
     background: white url(../imagens/img1.jpeg) center center no-repeat fixed; /*color - image - position - repeat - [size] - attachment*/
-    background-size: auto;
+    background-size: contain;
     color: white;
 }
 
@@ -51,7 +51,7 @@ main > section.img1 > p {
 
 main > section.img2 {
     background: white url(../imagens/img2.jpeg) center center no-repeat fixed; /*color - image - position - repeat - [size] - attachment*/
-    background-size: auto;
+    background-size: contain;
 
     color: white;
 }
@@ -64,7 +64,7 @@ main > section.img2 > p {
 
 main > section.img3 {
     background: white url(../imagens/img3.jpeg) center center no-repeat fixed; /*color - image - position - repeat - [size] - attachment*/
-    background-size: auto;
+    background-size: contain;
 
     color: white;
 }
